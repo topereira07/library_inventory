@@ -16,6 +16,7 @@ This is a full-stack, end-to-end Maven Web Application built in Java using tradi
     <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" style="height: 30px;" alt="Bootstrap"/>
     <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat&logo=apache-tomcat&logoColor=black" style="height: 30px;" alt="Tomcat"/>
     <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white" style="height: 30px;" alt="IntelliJ IDEA"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" style="height: 30px;" alt="Docker"/>
 </div>
 
 ## 🚀 How to Run
