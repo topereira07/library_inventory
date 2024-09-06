@@ -79,4 +79,4 @@ To run this project locally:
 
 ## 📝 Thanks
 
-Special thank you to Henrique Celeste for the huge help on this project!
+Special thanks to Henrique Celeste for the huge help on this project!
