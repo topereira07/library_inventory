@@ -1,21 +1,24 @@
-# Use an official Java 8 image as the base
-FROM openjdk:8
+# Use an official Maven image to build the application
+FROM maven:3.8.6-openjdk-11 AS build
 
-# Set the working directory to /app
-WORKDIR /app
+# Set the working directory
+WORKDIR /library
 
-# Copy the Maven dependencies
-COPY pom.xml /app/
-RUN mvn dependency:go-offline
+# Copy the Maven project files
+COPY pom.xml .
+COPY src ./src
 
-# Copy the application code
-COPY . /app/
+# Build the Maven project
+RUN mvn clean package -DskipTests
 
-# Compile the application
-RUN mvn package
+# Use the official Tomcat image
+FROM tomcat:9.0-jdk11
 
-# Expose the port for Tomcat
+# Copy the WAR file from the local project directory to Tomcat's webapps directory in the container
+COPY --from=build /library/target/library.war /usr/local/tomcat/webapps/
+
+# Expose port 8080 for Tomcat
 EXPOSE 8080
 
-# Run the application
-CMD ["mvn", "tomcat7:run"]
+# Start Tomcat
+CMD ["catalina.sh", "run"]

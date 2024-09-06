@@ -9,9 +9,9 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
 
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/library?useSSL=false&amp;serverTimezone=UTC"/>
-        <property name="user" value="root"/>
-        <property name="password" value="4154042Love#"/>
+        <property name="jdbcUrl" value="jdbc:mysql://mysql:3306/library?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="user" value="papi123"/>
+        <property name="password" value="papi123"/>
 
         <!-- c3p0 database connection pool management properties -->
         <property name="minPoolSize" value="1"/>
