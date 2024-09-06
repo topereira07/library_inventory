@@ -1,7 +1,3 @@
-Here is your `README.md` styled similarly to the example you provided:
-
----
-
 # 📚 Book Library Inventory Web Application
 
 This is a full-stack, end-to-end Maven Web Application built in Java using traditional Spring MVC (not Spring Boot) and Hibernate for the backend. It allows full CRUD operations for managing books, including adding, editing, viewing, and deleting books. The frontend uses Thymeleaf templating engine, HTML, CSS, and Bootstrap for a responsive design. The project is deployed to Apache Tomcat using the `mvn tomcat7:deploy` command.
