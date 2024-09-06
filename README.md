@@ -54,10 +54,10 @@ To run this project locally:
 
 ## 📸 Screenshots
 
-![Home Page](https://drive.google.com/file/d/1Yr3fo9dM0Wstz9nDerktUrR5c7NBkEAE/view?usp=sharing)
+![Home Page](https://github.com/topereira07/library_inventory/blob/main/src/main/resources/image1.png)
 *Home Page*
 
-![Add/Edit](https://drive.google.com/file/d/15O6C4kXgMv-IZ93ImBmoOj-OGFAAYW1A/view?usp=sharing)
+![Add/Edit](https://github.com/topereira07/library_inventory/blob/main/src/main/resources/image2.png)
 *Add/Edit Book*
 
 
