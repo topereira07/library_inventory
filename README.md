@@ -1,1 +1,76 @@
-# library_inventory
+Here is your `README.md` styled similarly to the example you provided:
+
+---
+
+# 📚 Book Library Inventory Web Application
+
+This is a full-stack, end-to-end Maven Web Application built in Java using traditional Spring MVC (not Spring Boot) and Hibernate for the backend. It allows full CRUD operations for managing books, including adding, editing, viewing, and deleting books. The frontend uses Thymeleaf templating engine, HTML, CSS, and Bootstrap for a responsive design. The project is deployed to Apache Tomcat using the `mvn tomcat7:deploy` command.
+
+## 🛠️ Technologies Used
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" style="height: 30px;" alt="Java"/>
+    <img src="https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white" style="height: 30px;" alt="Maven"/>
+    <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white" style="height: 30px;" alt="Spring MVC"/>
+    <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" style="height: 30px;" alt="Hibernate"/>
+    <img src="https://img.shields.io/badge/MySQL-00758F?style=flat&logo=mysql&logoColor=white" style="height: 30px;" alt="MySQL"/>
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" style="height: 30px;" alt="HTML"/>
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white" style="height: 30px;" alt="CSS"/>
+    <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white" style="height: 30px;" alt="Thymeleaf"/>
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" style="height: 30px;" alt="Bootstrap"/>
+    <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat&logo=apache-tomcat&logoColor=black" style="height: 30px;" alt="Tomcat"/>
+    <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white" style="height: 30px;" alt="IntelliJ IDEA"/>
+</div>
+
+## 🚀 How to Run
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/library-inventory.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd library-inventory
+   ```
+3. Ensure that you have **Java**, **Maven**, **MySQL**, and **Tomcat** installed and configured.
+4. Set up the MySQL database:
+   - Create a new database in MySQL named `library`.
+   - Update your database connection details in the `persistence.xml` file inside WEB-INF/spring directory.
+5. Run the Maven command to deploy the project on Tomcat:
+   ```bash
+   mvn tomcat7:deploy
+   ```
+6. Open your browser and go to `http://localhost:8080/library` to access the application.
+
+## 📡 RESTful API Endpoints
+
+- **GET** `/books` - Retrieve a list of all books.
+- **GET** `/books/{id}` - Retrieve details of a specific book by ID.
+- **POST** `/books` - Add a new book.
+- **PUT** `/books/{id}` - Update an existing book by ID.
+- **DELETE** `/books/{id}` - Delete a book by ID.
+
+## 📸 Screenshots
+
+![Home Page](https://drive.google.com/file/d/1Yr3fo9dM0Wstz9nDerktUrR5c7NBkEAE/view?usp=sharing)
+*Home Page*
+
+![Add/Edit](https://drive.google.com/file/d/15O6C4kXgMv-IZ93ImBmoOj-OGFAAYW1A/view?usp=sharing)
+*Add/Edit Book*
+
+
+## 🔧 Built With
+
+- **Java** - For backend logic.
+- **Spring MVC** - To handle requests and provide RESTful APIs.
+- **Hibernate** - To manage MySQL database interaction.
+- **Thymeleaf** - To render dynamic HTML pages.
+- **Bootstrap** - For responsive frontend design.
+- **Maven** - To manage project dependencies and build process.
+- **Apache Tomcat** - For deployment and running the application.
+
+## 📝 Thanks
+
+Special thank you to Henrique Celeste for the huge help on this project!
