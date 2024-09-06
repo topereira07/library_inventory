@@ -30,15 +30,22 @@ To run this project locally:
    ```bash
    cd library-inventory
    ```
-3. Ensure that you have **Java**, **Maven**, **MySQL**, and **Tomcat** installed and configured.
-4. Set up the MySQL database:
-   - Create a new database in MySQL named `library`.
-   - Update your database connection details in the `persistence.xml` file inside WEB-INF/spring directory.
-5. Run the Maven command to deploy the project on Tomcat:
+3. Ensure that you have **Java**, **Maven**, **Docker** installed and configured.
+4. Run the command inside the directory of the project:
    ```bash
-   mvn tomcat7:deploy
+   docker-compose up --build
    ```
+5. Make sure the built docker container is running.   
 6. Open your browser and go to `http://localhost:8080/library` to access the application.
+7. Alternatively you can run this project without **Docker** following the steps:
+ 7.1 Set up the MySQL database:
+    - Create a new database in MySQL named `library`.
+    - Update your database connection details in the `persistence.xml` file inside WEB-INF/spring directory.
+ 7.2 Run the Maven command to deploy the project on Tomcat:
+    ```bash
+    mvn tomcat7:deploy
+    ```
+ 7.3 Open your browser and go to `http://localhost:8080/library` to access the application.
 
 ## 📡 RESTful API Endpoints
 
@@ -66,6 +73,8 @@ To run this project locally:
 - **Bootstrap** - For responsive frontend design.
 - **Maven** - To manage project dependencies and build process.
 - **Apache Tomcat** - For deployment and running the application.
+- **MySql** - MySql database
+- **Docker** - Docker deployment and running app.
 
 ## 📝 Thanks
 
