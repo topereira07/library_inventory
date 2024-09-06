@@ -38,14 +38,14 @@ To run this project locally:
 5. Make sure the built docker container is running.   
 6. Open your browser and go to `http://localhost:8080/library` to access the application.
 7. Alternatively you can run this project without **Docker** following the steps:
- 7.1 Set up the MySQL database:
+    - Set up the MySQL database:
     - Create a new database in MySQL named `library`.
     - Update your database connection details in the `persistence.xml` file inside WEB-INF/spring directory.
- 7.2 Run the Maven command to deploy the project on Tomcat:
-    ```bash
-    mvn tomcat7:deploy
-    ```
- 7.3 Open your browser and go to `http://localhost:8080/library` to access the application.
+8. Run the Maven command to deploy the project on Tomcat:
+   ```bash
+   mvn tomcat7:deploy
+   ```
+9. Open your browser and go to `http://localhost:8080/library` to access the application.
 
 ## 📡 RESTful API Endpoints
 
