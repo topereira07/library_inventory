@@ -1,5 +1,6 @@
-# Build Artifacts
 
+# Build Artifacts
+.gitignore
 target/
 
 # IDE specific files
