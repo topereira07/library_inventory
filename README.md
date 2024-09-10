@@ -81,13 +81,13 @@ To run this project locally:
 
 **Important features:**
 
-* **[Pagination on Book Listing View]:** Listing book feature will only show 5 books at a time, with previous/next page button or similar function.
-* **[Search Functionality]:** Ability to search by book name, author, price range, etc.
+* **Pagination on Book Listing View:** Listing book feature will only show 5 books at a time, with previous/next page button or similar function.
+* **Search Functionality:** Ability to search by book name, author, price range, etc.
 
 *Optional features:*
 
-* *[Add image to Single Book View]:* Listing single book will show the book image.
-* *[Authentication System]:* Authentication system, so user can save favourite books.
+* *Add image to Single Book View:* Listing single book will show the book image.
+* *Authentication System:* Authentication system, so user can save favourite books.
 
 
 ## 📝 Thanks
